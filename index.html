@@ -3,19 +3,28 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>2ª Página WEB</title>
+    <title>Document</title>
+    <link rel="stylesheet" href="estilo.css">
 </head>
-<body bgcolor="blue">
-    <h1>
-        <font color="white">
-            Bom dia, o sol ja nasceu la na fazendinha
-        </font>
-        
-    </h1>
-    <p>
-        <font color="white" size="4" face="verdana">
-             1º Ano ADM B
-        </font>
-    </p>
+<body>
+        <div class="caixa">
+        <h1>Primeiros passos com JavaScript</h1>
+        <p>Clique nos botões para testar algumas funcionalidades.</p>
+
+
+        <button onclick="mostrarAlerta()">Exibir alert</button>
+        <button onclick="pedirNome()">Usar prompt</button>
+        <button onclick="somarNumeros()">Somar números</button>
+        <button onclick="mudarFormatacao()">Mudar formatação</button>
+
+        <p id="resultado">O resultado será exibido aqui.</p>
+    </div>
+
+
+    <script src="script.js">
+       
+    </script>
 </body>
 </html>
+
+
